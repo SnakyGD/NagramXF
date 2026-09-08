@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "446150425635",
-    "project_id": "project-7331853372972374607",
-    "storage_bucket": "project-7331853372972374607.firebasestorage.app"
+    "project_number": "602380725052",
+    "project_id": "nagramxf-de8b4",
+    "storage_bucket": "nagramxf-de8b4.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:446150425635:android:88638546dd888934298596",
+        "mobilesdk_app_id": "1:602380725052:android:2f6063e40cd7329742cc39",
         "android_client_info": {
-          "package_name": "fork.risin42.nagramx"
+          "package_name": "com.nagramxf.messenger"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAnHQcCSoIyCasmAbEbUrK5fys1SScP0DQ"
+          "current_key": "AIzaSyDaPc-_JXTvvZ0VJQtKOPkW7FqHFGHO-6w"
         }
       ],
       "services": {

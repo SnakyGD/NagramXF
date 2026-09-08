@@ -79,6 +79,7 @@ jobs:
         env:
           COMMIT_ID: ${{ github.event.head_commit.id }}
         run: |
+          echo "${{ secrets.KEYSTORE_FILE_BASE64 }}" | base64 -d > TMessagesProj/release.keystore
           export LOCAL_PROPERTIES="${{ secrets.LOCAL_PROPERTIES }}"
           export BUILD_TIMESTAMP=$(date +%s)
           ./gradlew TMessagesProj:assembleStaging
